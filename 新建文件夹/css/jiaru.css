@@ -1,0 +1,109 @@
+*{margin:0;
+	padding:0;}
+.content5 {
+    position: relative;
+    max-width: 1600px;
+    min-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.content5 .career-wrap {
+    padding: 40px 0 0 200px;
+}
+.content5 .career-wrap .career-title {
+    margin-bottom: 32px;
+    line-height: 38px;
+    font-size: 32px;
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    color: #ff7422;
+}
+.content5 .career-wrap .career-desc {
+    width: 840px;
+    margin-bottom: 32px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #3F3F3F;
+}
+.content5 .career-wrap .career-carousel {
+    width: 660px;
+    height: 400px;
+    margin: 45px 0 60px;
+}
+ul li{
+	list-style: none;
+}
+.content5 .carousel-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.content5 .carousel-container .first{
+	width: 660px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+.content5 .carousel-container .img{
+    width: 5280px;
+    height: 400px;
+    position: absolute;
+}
+.content5 .carousel-container .img li{
+	float: left;
+}
+.content5 .carousel-container .img img{
+	width: 660px;
+	height: 440px;
+}
+.content5 .career-wrap .career-desc .desc-link {
+    text-decoration: underline;
+}
+.content5 a {
+    text-decoration: none;
+    color: #000000;
+    background-color: transparent;
+}
+.content5 a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.content5 .linkedin {
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    width: 28px;
+    height: 28px;
+    background: url(../img/linkedin.png) no-repeat center;
+    background-size: cover;
+}
+.content5 .career-earth {
+    position: relative;
+    height: 668px;
+    margin: 80px 60px 0 60px;
+    background-color: #f4f4f4;
+}
+.content5 .career-earth .earth-map {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 86%;
+    height: 544px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../img/map2@2x.png) no-repeat center;
+    background-size: cover;
+}
+.content5 .career-earth .career-earth-desc {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 736px;
+    margin: 0 auto;
+    line-height: 32px;
+    font-family: "Gilroy-Medium", "PingFangSC-Medium", "Microsoft Yahei", "Myriad Pro", "Hiragino Sans GB", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #222222;
+}
